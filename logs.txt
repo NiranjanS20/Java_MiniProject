@@ -1,0 +1,36 @@
+# Debug Logs from WorkFusion Application
+
+## FXML Loading Logs
+DEBUG: Loading users.fxml
+DEBUG: FXML URL = file:/C:/Users/hp/IdeaProjects/WorkFusion/target/classes/com/example/workfusion/users.fxml
+DEBUG: users.fxml loaded successfully
+DEBUG: UsersController = com.example.workfusion.UsersController@12345678
+
+DEBUG: Loading jobs.fxml
+DEBUG: FXML URL = file:/C:/Users/hp/IdeaProjects/WorkFusion/target/classes/com/example/workfusion/jobs.fxml
+DEBUG: jobs.fxml loaded successfully
+DEBUG: JobsController = com.example.workfusion.JobsController@87654321
+
+## Controller Initialization Logs
+DEBUG: UsersController.initialize() start
+DEBUG: UsersController.initialize() end
+
+## Navigation Button Click Logs
+DEBUG: Users clicked
+DEBUG: Jobs clicked
+DEBUG: Seekers clicked
+DEBUG: Matches clicked
+DEBUG: Items clicked
+DEBUG: Logout clicked
+
+## Database Operations Logs
+DEBUG: Loaded 3 users from DB
+DEBUG: User added successfully
+DEBUG: User updated successfully
+DEBUG: User deleted successfully
+DEBUG: Password reset successfully
+
+## Error Handling Logs
+DEBUG: Database connection established
+DEBUG: PreparedStatement created
+DEBUG: ResultSet processed

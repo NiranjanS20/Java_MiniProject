@@ -1,0 +1,75 @@
+/* ====== GLOBAL BACKGROUND ====== */
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #1E3C72, #2A5298);
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+/* ====== GLASS PANEL (for login + main content) ====== */
+.glass-panel {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-padding: 24;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 20, 0.1, 0, 4);
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+    -fx-background-color: linear-gradient(to right, #253B52, #1E2C3A);
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+/* ====== TOP HEADER ====== */
+.top-header {
+    -fx-background-color: #141414;
+    -fx-text-fill: white;
+}
+
+/* ====== NAV BUTTONS ====== */
+.nav-button {
+    -fx-background-color: rgba(255,255,255,0.10);
+    -fx-text-fill: #E2E8F0;
+    -fx-padding: 8 16;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: rgba(255,255,255,0.18);
+}
+
+.nav-button:hover {
+    -fx-background-color: rgba(255,255,255,0.25);
+}
+
+.nav-button:pressed {
+    -fx-background-color: rgba(255,255,255,0.35);
+}
+
+/* ====== TEXT FIELDS (LOGIN PAGE) ====== */
+.fancy-field {
+    -fx-background-color: rgba(255,255,255,0.2);
+    -fx-background-radius: 8;
+    -fx-padding: 8;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255,255,255,0.6);
+    -fx-border-color: rgba(255,255,255,0.25);
+    -fx-border-radius: 8;
+}
+
+/* ====== LOGIN BUTTON ====== */
+.login-button {
+    -fx-background-color: #7F5AF0;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+}
+
+.login-button:hover {
+    -fx-background-color: #9A72FF;
+}
+
+.login-button:pressed {
+    -fx-background-color: #6748CC;
+}
