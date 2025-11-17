@@ -77,8 +77,7 @@ Proper error handling with user-friendly error dialogs for:
 ## Database Configuration
 The application uses MySQL database with the following default configuration:
 - URL: `jdbc:mysql://127.0.0.1:3306/job_matching`
-- Username: `root`
-- Password: `Jaya98765!`
+
 
 To change the database configuration, modify the `Database.java` file in `src/main/java/com/example/workfusion/`.
 
